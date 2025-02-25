@@ -1,0 +1,33 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+.card {
+    width: 250px;
+}
+
+.card.card-title {
+    margin: 6px 0px;
+}
+
+.card-prices {
+    display: flex;
+    gap: 20px;
+}
+
+.card-price-new {
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-price-old {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+/*Hiệu ứng di chuột đến item sẽ phóng to lên */
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
